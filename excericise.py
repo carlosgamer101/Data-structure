@@ -62,3 +62,22 @@ reversed_word = reverse_string(word)
 print(reversed_word)
 
 
+def is_prime(n, divisor=None):
+    if divisor is None:
+        divisor = n - 1
+    if n <= 1:
+        return False
+    if divisor == 1:
+        return True
+    if n % divisor == 0:
+        return False
+    return is_prime(n, divisor - 1)
+
+# Test
+num = int(input("Enter a number(n) to check if it's prime: "))
+if is_prime(num):
+    print(num, "is a prime number.")
+else:
+    print(num, "is not a prime number.")
+
+
