@@ -40,10 +40,4 @@ n_terms = 10
 series = [fibonacci_recursive(i) for i in range(n_terms)]
 print(series)
 
-
-
-
-
-
-
-
+print (fibonacci_recursive(7))

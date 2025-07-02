@@ -1,28 +1,28 @@
-# #  1st question
-# n= int(input("ENTER NUMBER"))
-# while n>=1:
-#     print(n)
-#     n -=1
+#  1st question
+n= int(input("ENTER NUMBER"))
+while n>=1:
+    print(n)
+    n -=1
 
 # #Second question
 
-# def countdown(n):
-#     if n==1:
-#         print(1)
+def countdown(n):
+    if n==1:
+        print(1)  
 
-#     else:
-#         print(n)
-#         countdown(n-1)
+    else:
+        print(n)
+        countdown(n-1)
 
-# countdown(10)
+countdown(10)
 
-# #Third question
-# m = int (input("Enter lower range"))
-# k = int (input("Enter upper range"))
+#Third question
+m = int (input("Enter lower range"))
+k = int (input("Enter upper range"))
 
-# while m<=k:
-#     print(k)
-#     k-=1
+while m<=k:
+    print(k)
+    k-=1
 
 #Fourth Question
 def rangecount(j,h):
@@ -36,14 +36,14 @@ def rangecount(j,h):
 rangecount(5,10)
 
 # #Fifth question
-# def Product(e,f):
-#     if f==1:
-#         return e
+def Product(e,f):
+    if f==1:
+        return e
     
-#     else:
-#         return e + Product(e,f-1)
+    else:
+        return e + Product(e,f-1)
     
-# print(Product(3,4))
+print(Product(3,4))
 
 
 
